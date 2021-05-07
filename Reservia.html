@@ -13,51 +13,55 @@
 <body>
     <header>
         <h1 class="d-none">Réservia</h1>
-        <h2><img src="logo/Reservia.svg" alt="Reservia" class="logo" /></h2>
+        <img src="logo/Reservia.svg" alt="logo reservia" class="logo" />
         <nav>
-            <ul>
-                <li></li>
-            </ul>
-            <p>Hébergement</p>
-            <p>Activités</p>   
-            <p>S'inscrire</p>
+            <a href="hébergement">Hébergement</a>
+            <a href="activités">Activités</a>
+            <a href="s'inscrire">S'inscrire</a>
         </nav>
-    
     </header>
     <section class="recherche">
         <h3>Trouver votre hébergement pour des vacances de rêve</h3>
         <p>En plein centre ville ou pleine nature</p>
         <article class="rechercher">
-        <i class="fas fa-map-marker-alt"></i>
-            <h4>Recherche</h4>
+            <i class="fas fa-map-marker-alt"></i>
+                <form method="post" action="traitement.php">
+                    <p>
+                        <input type="text" />
+                        <button>Recherche</button>
+                    </p>
+                </form>
         </article>
-        <h4>filtres</h4>
-        <article class="Economique">
-            <i class="fas fa-money-bill-wave"></i>
-            <h4>Economique</h4>
-        </article>    
-      
-        <article class="Famillial">
-            <i class="fas fa-child"></i>
-            <h4>Famillial</h4>
-        <article class="Romantique">
-            <i class="fas fa-heart"></i> 
-            <h4>Romantique</h4>
-        </article>
-        <article class="Animaux">
-            <i class="fas fa-dog"></i> 
-            <h4>Animaux autorisés</h4>
+        <div class="filtre">
+            <h4>filtres</h4>
+            <div class="economique">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Economique</span>
+            </div>    
+            <div class="famillial">
+                <i class="fas fa-child"></i>
+                <span>Famillial</span>
+            </div>
+            <div class="romantique">
+                <i class="fas fa-heart"></i> 
+                <span>Romantique</span>
+            </div>
+            <div class="Animaux">
+                <i class="fas fa-dog"></i> 
+                <span>Animaux autorisés</span>
+            </div>
+        </div>
         </article>
         <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
     <section class="hebergement">  
         <h3>Hébergements à Marseille</h3>
-        <article class="P2">
+        <figcaption class="P2">
             <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de Auberge" class="P1" />
             <h4>Auberge la Cannebière</h4>
             <p>Nuit à partir de 25€</p>
             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </article>
+        </figcaption>
         <article class="P2">
             <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port" class="P1" />
             <h4>Hôtel du port</h4>
@@ -154,22 +158,22 @@
     </section>
 
     <footer>
-        <articles>
-            <h4>A propos</h4>
-            <p>Fonctionnement du site</p>
-            <p>Conditions général de vente</p>
-            <p>Données et confidentialité</p>
-        </articles>    
-        <articles>
-            <h4>Nos Hébergements</h4>
-            <p>Charte qualité</p>
-            <p>Soumettre votre hôtel</p>
-        </articles>
-        <articles>
-            <h4>Assistance</h4>
-            <p>Centre d'aide</p>
-            <p>Nous contacter</p>
-        </articles>
+        <div>
+            <h3>A propos</h3>
+            <a href="fonctionnement">Fonctionnement du site</a>
+            <a href="condition">Conditions général de vente</a>
+            <a href="données">Données et confidentialité</a>
+        </div>    
+        <div>
+            <h3>Nos Hébergements</h3>
+            <a href="charte">Charte qualité</a>
+            <a href="soumettre">Soumettre votre hôtel</a>
+        </div>
+        <div>
+            <h3>Assistance</h3>
+            <a href="centre">Centre d'aide</a>
+            <a href="contacter">Nous contacter</a>
+        </div>
     </footer>
 </body>
 </html>
