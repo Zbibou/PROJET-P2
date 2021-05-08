@@ -21,17 +21,21 @@
         </nav>
     </header>
     <section class="recherche">
-        <h3>Trouver votre hébergement pour des vacances de rêve</h3>
+        <header>
+            <h3>Trouver votre hébergement pour des vacances de rêve</h3>
+        </header>
         <p>En plein centre ville ou pleine nature</p>
-        <article class="rechercher">
+        <div class="rechercher">
+            <span>
             <i class="fas fa-map-marker-alt"></i>
+            </span> 
                 <form method="post" action="traitement.php">
                     <p>
                         <input type="text" />
                         <button>Recherche</button>
                     </p>
                 </form>
-        </article>
+        </div>
         <div class="filtre">
             <h4>filtres</h4>
             <div class="economique">
@@ -51,62 +55,100 @@
                 <span>Animaux autorisés</span>
             </div>
         </div>
-        </article>
-        <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        <div>
+            <div><i class="fas fa-info-circle"></i></div>
+            <p class="500">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>  
     </section>
-    <section class="hebergement">  
-        <h3>Hébergements à Marseille</h3>
-        <figcaption class="P2">
-            <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de Auberge" class="P1" />
-            <h4>Auberge la Cannebière</h4>
-            <p>Nuit à partir de 25€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </figcaption>
-        <article class="P2">
-            <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port" class="P1" />
-            <h4>Hôtel du port</h4>
-            <p>Nuit à partir de 52€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    <section class="hebergement">
+        <header>
+            <h3>Hébergements à Marseille</h3>
+        </header>
+        <article class="auberge">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de Auberge" class="P1" />
+                    <figcaption>
+                        <h4>Auberge la Cannebière</h4>
+                    </figcaption>
+                </figure>
+                <p>Nuit à partir de <strong>25€</strong></p>
+                <div>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>  
+            </a>
         </article>
-        <article class="P2">
-            <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="mouettes" class="P1" />
-            <h4>Hôtel des mouettes</h4>
-            <p>Nuit à partir de 76€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <article class="port">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo hôtel du port" class="port" />
+                    <figcaption>
+                        <h4>Hôtel du port</h4>
+                    </figcaption>
+                </figure>
+                <p>Nuit à partir de <strong>52€</strong></p>
+                <div>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </a>    
         </article>
-        <article class="P2">
-            <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="mer" class="P1" />
-            <h4>Hôtel de la mer</h4>
-            <p>Nuit à partir de 46€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <article class="mouettes">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo hôtel des mouettes" class="mouettes" />
+                    <figcaption> 
+                        <h4>Hôtel des mouettes</h4>
+                    </figcaption> 
+                </figure>
+                <p>Nuit à partir de <strong>76€</strong></p>
+                <div>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </a>
         </article>
-        <article class="P2">
-            <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="panier" class="P1" />
-            <h4>Auberge Le Panier</h4>
-            <p>Nuit à partir de 23€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <article class="mer">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo hôtel de la mer" class="mer" />
+                    <figcaption>
+                        <h4>Hôtel de la mer</h4>
+                    </figcaption>
+                </figure>
+                <p>Nuit à partir de <strong>46€</strong></p>
+                <div>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </a>
         </article>
-        <figcaption>
-            <img src="" alt="">
-        </figcaption>
-        <article class="P2">
-            <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="amina" class="P1" />
-            <h4>Hôtel chez Amina</h4>
-            <p>Nuit à partir de 96€</p>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <article class="panier">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo auberge le panier" class="panier" />
+                    <figcaption>
+                        <h4>Auberge Le Panier</h4>
+                    </figcaption>
+                </figure>
+                <p>Nuit à partir de <strong>23€</strong></p>
+                <div>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </a>
         </article>
-
-<section>
-    <figcaption>
-        <img src="" alt="">
-        <p></p>
-    </figcaption>
-</section>
-
-<aside></aside>
-
-
-        <h4>Afficher plus</h4>
+        <article class="Amina">
+            <a href="@">
+                <figure>
+                    <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo hôtel chez amina" class="amina" />
+                    <figcaption>
+                        <h4>Hôtel chez Amina</h4>
+                    </figcaption>    
+                    <p>Nuit à partir de <strong>96€</strong></p>
+                </figure>    
+                <div>   
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>      
+            </a>
+        </article>
+        <a href="@"><h4>Afficher plus</h4></a>
     </section>
     <section class="populaire">
         <h3>Les plus populaire</h3><i class="fas fa-chart-line"></i>
