@@ -5,10 +5,57 @@ body
 .d-none{
     display: none;
 }
+div
+{
+    display: block;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 nav
 {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 20%;
+
+}
+nav ul 
+{
+    list-style-type: none;
+}
+.hebergement
+{
+    border-top: 3px solid #0065FC ;
+    color: #0065FC;
+}
+.activite
+{
+    
+}
+.inscrire
+{
+    color: #0065FC;
+    font-weight: 600;
+}
+
+footer 
+{
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.BlocFin
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 0 2rem;
+}
+.ColonneBas
+{
+    width: 30%;
+    padding: 2rem 2rem;
+}
+.ColonneLienBas
+{
+    display: block;
+    margin: 1rem 0;  
 }
