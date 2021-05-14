@@ -23,45 +23,53 @@
         </nav>
     </header>
     <Main>
-        <section class="recherche">
-        <header>
-            <h3>Trouver votre hébergement pour des vacances de rêve</h3>
-        </header>
-        <p>En plein centre ville ou pleine nature</p>
-        <div class="rechercher">
-            <span>
-                <i class="fas fa-map-marker-alt"></i>
-            </span> 
-            <form method="post" action="traitement.php">
-                <p>
-                    <input type="text" />
-                    <button>Recherche</button>
-                </p>
-            </form>
-        </div>
-        <div class="filtre">
-            <h4>filtres</h4>
-            <div class="economique">
-                <i class="fas fa-money-bill-wave"></i>
-                <span>Economique</span>
-            </div>    
-            <div class="famillial">
-                <i class="fas fa-child"></i>
-                <span>Famillial</span>
+        <section class="BlocRecherche">
+            <div>
+                <h3><strong>Trouver votre hébergement pour des vacances de rêve</strong></h3>
             </div>
-            <div class="romantique">
-                <i class="fas fa-heart"></i> 
-                <span>Romantique</span>
+            <div>
+                <p>En plein centre ville ou pleine nature</p>
             </div>
-            <div class="Animaux">
-                <i class="fas fa-dog"></i> 
-                <span>Animaux autorisés</span>
+            <div class="TableRechercher">
+                <div class="IconeLocal">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div> 
+                <form class="ZoneRecherche" method="post" action="traitement.php">
+                    <input class="Text" type="text" />
+                </form>
+                <button class="BoutonRecherche">Recherche</button>
             </div>
-        </div>
-        <div>
-            <div><i class="fas fa-info-circle"></i></div>
-            <p class="500">Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>  
+            <div class="Filtre">
+                <h4>Filtres</h4>
+                <div class="FiltreRercherche">
+                    <div class="FiltreIcone">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <span class="TitreIcone">Economique</span>
+                </div>    
+                <div class="FiltreRercherche">
+                    <div class="FiltreIcone">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <span class="TitreIcone">Famillial</span>
+                </div>
+                <div class="FiltreRercherche">
+                    <div class="FiltreIcone">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span class="TitreIcone">Romantique</span>
+                </div>
+                <div class="FiltreRercherche">
+                    <div class="FiltreIcone">
+                        <i class="fas fa-dog"></i> 
+                    </div>
+                    <span class="TitreIcone">Animaux autorisés</span>
+                </div>     
+            </div>
+            <div class="Info">
+                <i class="fas fa-info-circle"></i>
+                <p class="500">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>   
         </section>
         <section class="BlocHebergement">
             <header>
