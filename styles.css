@@ -53,7 +53,7 @@ nav ul
 .inscrire
 {
     color: #0065FC;
-    font-weight: bold;
+    font-weight: 600;
     padding: 2em 0 0 3em;
     height: 100%;
 }  
@@ -195,8 +195,8 @@ section
 .TitreHerbergment
 {
     display: flex;
-    justify-content: space-between;
-    margin: 0;
+    justify-content: start;
+    height: 50px;
 }
 .SousBlocHebergement
 {
@@ -217,8 +217,8 @@ section
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 10%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
     margin-right: 0px;
 }
 .ImageHebergement
@@ -229,6 +229,25 @@ section
     width: 100%;
     max-height: 100%;
     border-radius: 1rem 1rem 0 0;
+}
+.essai
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.elementPopulaire
+{
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 10%;
+    width: 50%;
+    margin-right: 0px;
 }
 figcaption
 {
@@ -243,6 +262,15 @@ figcaption
     border-radius: 1.5rem;
     padding: 2rem; 
     width: 30%;
+}
+.imagePopulaire
+{
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
  /*Partie bas de page */
 footer 
