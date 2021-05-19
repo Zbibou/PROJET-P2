@@ -69,9 +69,9 @@ i
 {
     color: black;
 }
-.fa-star2
+.etoileGrise
 {
-    color: #F2F2F2;
+    color: #d9d9d9;
 }
 section
 {
@@ -199,6 +199,7 @@ section
     display: flex;
     justify-content: start;
     height: 50px;
+    margin-top: -10px;
 }
 .SousBlocHebergement
 {
@@ -211,6 +212,7 @@ section
     padding: 2rem; 
     width: 60%;
     padding: 0.9EM;
+    margin-bottom: 33px;
 }
 .ElementHebergement
 {
@@ -220,8 +222,8 @@ section
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 30%;
-    width: 30%;
+    height: 35%;
+    width: 32%;
     margin-right: 0px;
 }
 .ImageHebergement
@@ -233,12 +235,17 @@ section
     max-height: 100%;
     border-radius: 1rem 1rem 0 0;
 }
-.essai
+.sectionHebergement
 {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+figure
+{
+    padding: 2px;
+    margin: 2px;
 }
 .elementPopulaire
 {
@@ -248,9 +255,10 @@ section
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 50%;
     width: 100%;
     margin-right: 0px;
+    margin-top: 25PX;
+    height: 171px;
 }
 figcaption
 {
@@ -260,11 +268,15 @@ figcaption
 {
     display: grid;
     column-gap: 2rem;
-    row-gap: 2rem;
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    padding: 2rem; 
+    padding: 24px; 
     width: 30%;
+    margin-bottom: 33px;
+}
+.plusPopulaire
+{
+    margin-top: -19Px;
 }
 .imagePopulaire
 {
@@ -273,6 +285,13 @@ figcaption
     max-width: 100%;
     max-height: 100%;
     border-radius: 1rem 0 0 1REM;
+}
+.fleche
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -35Px;
 }
  /*Partie bas de page */
 footer 
