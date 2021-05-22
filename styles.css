@@ -110,7 +110,7 @@ section
 .search
 {
     border: 0;
-    border-color: none;
+    border-color: 0 none;
     text-align: center;
     font-size: 1em;
     padding: 1EM 1em 1em 1em;
