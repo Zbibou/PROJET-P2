@@ -2,7 +2,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    width: 83%;
+    max-width: 1440px;
 }
  /*Partie haut de page */
 .d-none
@@ -210,7 +210,6 @@ section
     column-gap: 2rem;
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    padding: 2rem; 
     width: 60%;
     padding: 0.9EM;
     margin-bottom: 33px;
@@ -225,7 +224,11 @@ section
     box-sizing: border-box;
     height: 46%;
     width: 32%;
-    margin-right: 0px;
+    margin-right: 0;
+}
+.ElementHebergement:hover
+{
+    transform: scale(1.1);
 }
 .ImageHebergement
 {
@@ -247,13 +250,13 @@ section
 }
 figure
 {
-    padding: 2px;
-    margin: 2px;
+    padding: 2.5px;
+    margin: 2.5px;
 }
 .titreHebergement
 {
     display: block;
-    padding-top: 0PX;
+    padding-top: 0;
     margin-top: -21PX;
     margin-left: 6PX;
 }
@@ -261,7 +264,7 @@ figure
 {
     margin-left: 9PX;
     display: block;
-    padding-top: 0PX;
+    padding-top: 0;
     margin-top: -32PX;
 }
 .etoileHebergement
@@ -279,6 +282,7 @@ figure
     margin-top: -30PX;
     height: 1PX;
 }
+/*Partie bloc populaire*/
 .elementPopulaire
 {
     background-color: white;
@@ -288,9 +292,13 @@ figure
     cursor: pointer;
     box-sizing: border-box;
     width: 100%;
-    margin-right: 0px;
+    margin-right: 0;
     margin-top: 25PX;
     height: 148px;
+}
+.elementPopulaire:hover
+{
+    transform: scale(1.05);
 }
 .BlocPopulaire
 {
@@ -313,7 +321,7 @@ figure
     max-width: 100%;
     max-height: 100%;
     border-radius: 1rem 0 0 1REM;
-    width: 141PX;
+    width: 192px;
 }
 .fleche
 {
@@ -325,30 +333,253 @@ figure
 .titrePopulaire
 {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-start;
-    margin-top: -35Px;
+    margin-top: -164Px;
+    margin-left: 197px;
 }
 .titrePopulaire2
 {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-start;
-    margin-top: -35Px;
+    margin-top: -164Px;
+    margin-left: 197px;
 }
 .textePopulaire
 {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-start;
-    margin-top: -35Px;  
+    margin-top: -38Px;
+    margin-left: 200px; 
 }
 .iconePopulaire
 {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-start;
-    margin-top: -35Px;
+    margin-top: 58Px;
+    margin-left: 202px;
+}
+.iconePopulaire2
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 43Px;
+    margin-left: 202px;
+}
+/*Partie activité*/
+.blocActivites
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 31.25rem;
+}
+.activitePort
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    width: 304px;
+    height: 443px;
+}
+.activitePort:hover
+{
+    transform: scale(1.05);
+}
+.activitePortBloc
+{
+    position: relative;
+    flex: 1;
+    margin-top: -2px;
+}
+.portImage
+{
+    position: absolute;
+    height: 402px;
+    width: 312px;
+    object-fit: cover;
+    margin-left: -5px;
+    margin-top: -6px
+}
+.activitePortTitre
+{
+    margin: 25.4rem 0.5rem;
+    height: 30px;
+}
+.activiteFort
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    height: 245px;
+    width: 304px;
+}
+.activiteFort:hover
+{
+    transform: scale(1.05);
+}
+.activiteFortBloc
+{
+    position: relative;
+    flex: 1;  
+}
+.fortImage
+{
+    position: absolute;
+    height: 189px;
+    width: 310px;
+    object-fit: cover;
+    margin-left: -6px;
+    margin-top: -6px
+}
+.activiteFortTitre
+{
+    margin: 12.4rem 0.5rem;
+    height: 30px;
+}
+.activiteFrioul
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    height: 170px;
+    width: 304px;
+    margin-top: -27px;
+}
+.activiteFrioul:hover
+{
+    transform: scale(1.05);
+}
+.activiteFrioulBloc
+{
+    position: relative;
+    flex: 1;  
+}
+.frioulImage
+{
+    position: absolute;
+    height: 125px;
+    width: 310px;
+    object-fit: cover;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+.activiteFrioulTitre
+{
+    margin: 8.2rem 0.5rem;
+    height: 30px;
+}
+.activiteNational
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    width: 304px;
+    height: 443px;
+}
+.activiteNational:hover
+{
+    transform: scale(1.05);
+}
+.activiteNationalBloc
+{
+    position: relative;
+    flex: 1;  
+}
+.nationalImage
+{
+    position: absolute;
+    height: 401px;
+    width: 312px;
+    object-fit: cover;
+    margin-left: -5px;
+    margin-top: -6px;
+}
+.activiteNationalTitre
+{
+    margin: 25.4rem 0.5rem;
+    height: 30px;
+}
+.activiteDame
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    height: 202px;
+    width: 304px;
+}
+.activiteDame:hover
+{
+    transform: scale(1.05);
+}
+.activiteDameBloc
+{
+    position: relative;
+    flex: 1;  
+}
+.dameImage
+{
+    position: absolute;
+    height: 158px;
+    width: 310px;
+    object-fit: cover;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+.activiteDameTitre
+{
+    margin: 10.2rem 0.5rem;
+    height: 30px;
+}
+.activiteLongchamp
+{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    height: 202px;
+    width: 304px;
+    margin-top: -14px;
+}
+.activiteLongchamp:hover
+{
+    transform: scale(1.05);
+}
+.activiteLongchampBloc
+{
+    position: relative;
+    flex: 1;  
+}
+.longchampImage
+{
+    position: absolute;
+    height: 158px;
+    width: 310px;
+    object-fit: cover;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+.activiteLongchampTitre
+{
+    margin: 10.2rem 0.5rem;
+    height: 30px;
 }
  /*Partie bas de page */
 footer 

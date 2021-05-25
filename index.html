@@ -16,7 +16,7 @@
         <img src="logo/Reservia.svg" alt="logo reservia" class="logo" />
         <nav>
             <ul class="menu">
-                <li class="hebergement"><a href="#BlocHebergement">Hébergement</a></li>
+                <li class="hebergement"><a href="#hebergement">Hébergement</a></li>
                 <li class="activites"><a href="#activités">Activités</a></li>
                 <li class="inscrire"><a href="#">S'inscrire</a></li>
             </ul>
@@ -69,7 +69,7 @@
                 <p class="logements">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>   
         </section>
-        <section class="BlocHebergement">
+        <section class="BlocHebergement"  id="hebergement">
             <div class="SousBlocHebergement">
                 <div class="hautBlocHebergement">
                     <h3>Hébergements à Marseille</h3>
@@ -239,7 +239,7 @@
                         <div class="textePopulaire">
                             <p>Nuit à partir de <strong>71€</strong></p>
                         </div>
-                        <div class="iconePopulaire">
+                        <div class="iconePopulaire2">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -271,70 +271,72 @@
             </div>
             </aside>
         </section>
-        <section class="activités" id="activités">
+        <section class="activites" id="activités">
             <header>
                 <h3>Activités à Marseille</h3>
             </header>
-            <article class="vieux port">
+            <div class="blocActivites">
+                <div class="activitePort">
                 <a href="#">
-                    <figure>
-                        <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port" class="image" />
-                        <figcaption>
+                    <figure class="activitePortBloc">
+                        <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port" class="portImage" />
+                        <figcaption class="activitePortTitre">
                             <h4>Vieux Port</h4>
                         </figcaption>    
                     </figure>
                 </a>
-            </article>
-            <article class="fort">
-                <a href="#">
-                    <figure>
-                        <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du fort de pommegues" class="image"/>
-                        <figcaption>
-                            <h4>Fort de Pomégues</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article class="frioul">
-                <a href="#">
-                    <figure>
-                        <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo iles du frioul" class="frioul"/>
-                        <figcaption>
-                            <h4>Îles du Frioul</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article class="national">
-                <a href="#">
-                    <figure>
-                        <img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo parc national des Calanques" class="national"/>
-                        <figcaption>
-                            <h4>Parc National des Calanques</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article class="dame">
-                <a href="#">
-                    <figure>
-                        <img src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo notre dame de la garde" class="dame"/>
-                        <figcaption>
-                            <h4>Notre-Dame-De-La-Garde</h4>
-                        </figcaption>
-                    </figure>    
-                </a>
-            </article>
-            <article class="longchamp">
-                <a href="#">
-                    <figure>
-                        <img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo parc longchamp" class="longchamp"/>
-                        <figcaption>
-                            <h4>Parc Longchamp</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
+                </div>
+                    <div class="activiteFort">
+                        <a href="#">
+                            <figure class="activiteFortBloc">
+                                <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du fort de pommegues" class="fortImage"/>
+                                <figcaption class="activiteFortTitre">
+                                    <h4>Fort de Pomégues</h4>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="activiteFrioul">
+                        <a href="#">
+                            <figure class="activiteFrioulBloc">
+                                 <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo iles du frioul" class="frioulImage"/>
+                                <figcaption class="activiteFrioulTitre">
+                                    <h4>Îles du Frioul</h4>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="activiteNational">
+                        <a href="#">
+                            <figure class="activiteNationalBloc">
+                                <img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo parc national des Calanques" class="nationalImage"/>
+                                <figcaption class="activiteNationalTitre">
+                                    <h4>Parc National des Calanques</h4>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="activiteDame">
+                        <a href="#">
+                            <figure class="activiteDameBloc">
+                                <img src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo notre dame de la garde" class="dameImage"/>
+                                <figcaption class="activiteDameTitre">
+                                    <h4>Notre-Dame-De-La-Garde</h4>
+                                </figcaption>
+                         </figure>    
+                        </a>
+                    </div>
+                    <div class="activiteLongchamp">
+                        <a href="#">
+                            <figure class="activiteLongchampBloc">
+                                <img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo parc longchamp" class="longchampImage"/>
+                                <figcaption class="activiteLongchampTitre">
+                                    <h4>Parc Longchamp</h4>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+            </div>    
         </section>
     </main> 
     <footer>
