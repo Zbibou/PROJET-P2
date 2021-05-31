@@ -679,7 +679,7 @@ footer
     .blocActivites
     {
         display: block ;
-        height: 1800px;
+        height: 1193px;
         margin-left: 27px;
     }
     .blocActivites>div
@@ -737,5 +737,61 @@ footer
     .boutonRecherche
     {
         border-radius: 1em;
+    }
+    .zoneRecherche
+    {
+        border-radius: 1em;
+        width: 352px;
+    }
+    .search
+    {
+        width: 226px;
+        text-align: left;
+    }
+
+    .menu
+    {
+        display: flex;
+        align-items: center;
+        width: 320px;
+        text-align: center;
+        margin-left: -161px;
+        margin-top: -23px;
+    }
+    .navigation
+    {
+        margin: 97px 64px -13px 10px;
+    }
+    .hebergement
+    {
+        width: 247px;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        padding: 1em 0 1em 0;
+        border-top: 0;
+        height: auto;
+        margin-right: 1px;
+    }
+    .activites
+    {
+        width: 242px;
+        border-bottom: 2px solid #f2f2f2;
+        padding: 1em 0 1em 0;
+        margin-right: -68px;
+    }
+    .inscrire
+    {
+        position: absolute;
+        top: 0em;
+        right: -3em;
+        height: auto;
+    }
+    .logo
+    {
+        margin-top: -4em;
+    }
+    footer
+    {
+        width: 394px;
     }
 }
