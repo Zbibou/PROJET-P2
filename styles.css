@@ -259,8 +259,8 @@ section
 }
 figure
 {
-    padding: 2.5px;
-    margin: 2.5px;
+    padding: 2px;
+    margin: 2px;
 }
 .titreHebergement
 {
@@ -795,3 +795,114 @@ footer
         width: 394px;
     }
 }
+/*Media queries version mobile */
+@media screen and (max-width: 780px )
+{
+    .blocHebergement
+    {
+        flex-direction: column-reverse;
+        height: 1500px;
+        margin-top: 5px;
+    }
+    .blocPopulaire
+    {
+        width: 720px;
+        height: 549px;
+        border-radius: 0;
+    }
+    .imagePopulaire
+    {
+        width: 127px;
+    }
+    .titrePopulaire
+    {
+    margin-top: -165px;
+    margin-left: 147px;
+    }
+    .textePopulaire
+    {
+        margin-top: -36px;
+        margin-left: 152px;   
+    }
+    .iconePopulaire
+    {
+        margin-left: 154px;
+    }
+    .titrePopulaire2
+    {
+        margin-left: 147px;  
+    }
+    .iconePopulaire2
+    {
+        margin-left: 153px;  
+    }
+    .elementPopulaire
+    {
+        width: 350px;
+        margin-left: 173px;
+    }
+    .sousBlocHebergement
+    {
+        height: 1000px;
+        background-color: white;
+    }
+    .sectionHebergement
+    {
+        flex-direction: column;
+        margin-top: -17px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 750px;
+    }
+    .elementHebergement
+    {
+        height: 207px;
+        width: 328px;
+        margin-top: 40px;
+        margin-left: 26px;
+    }
+    .basDeBlocHebergement
+    {
+        margin-top: -28px;
+    }
+    .filtre
+    {
+        flex-wrap: wrap ;
+        height: 159px;
+        width: 530px;
+    }
+    .blocActivites
+    {
+        height: 617px;
+        margin-left: 44px;
+        justify-content: space-between;
+    }
+    .blocActivites>div
+    {
+        margin-top: 32px;    
+        height: 169px;
+        width: 308px;  
+    }
+    .blocActivites>div>a>figure>img
+    {
+        position: absolute;
+        height: 125px;
+        width: 310px;
+        object-fit: cover;
+        margin-left: -6px;
+        margin-top: -6px;  
+    }
+    .blocActivites>div>a>figure>figcaption
+    {
+        margin: 8.2rem 0.5rem;
+        height: 30px;
+    }
+    .activites>div>h3
+    {
+        margin-left: 22px ;
+    }
+    footer
+    {
+        margin-top: 41px;
+    }
+} 
