@@ -624,7 +624,7 @@ footer
     }
     .blocPopulaire
     {
-        width: 241px;
+        width: 348px;
         height: 549px;
         border-radius: 0;
     }
@@ -645,7 +645,7 @@ footer
     .iconePopulaire
     {
         margin-left: 138px;
-        margin-top: 5px;
+        margin-top: 58px;
     }
     .titrePopulaire2
     {
@@ -654,7 +654,7 @@ footer
     .iconePopulaire2
     {
         margin-left: 136px; 
-        margin-top: -13px; 
+        margin-top: 38px; 
     }
     .sousBlocHebergement
     {
@@ -671,7 +671,7 @@ footer
     .elementHebergement
     {
         height: 207px;
-        width: 251px;
+        width: 342px;
         margin-top: 25px;
     }
     .basDeBlocHebergement
@@ -688,13 +688,13 @@ footer
     {
         margin-top: 32px;    
         height: 169px;
-        width: 253px;  
+        width: 342px;  
     }
     .blocActivites>div>a>figure>img
     {
         position: absolute;
         height: 125px;
-        width: 310px;
+        width: 346px;
         object-fit: cover;
         margin-left: -6px;
         margin-top: -6px;  
@@ -755,7 +755,7 @@ footer
     {
         display: flex;
         align-items: center;
-        width: 223px;
+        width: 328px;
         text-align: center;
         margin-left: -161px;
         margin-top: -23px;
@@ -785,7 +785,7 @@ footer
     {
         position: absolute;
         top: 0em;
-        right: 1em;
+        right: -2em;
         height: auto;
     }
     .logo
