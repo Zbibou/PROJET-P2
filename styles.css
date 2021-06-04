@@ -200,7 +200,6 @@ section
 {
     display: flex;
     column-gap: 2rem;
-    height: 624px;
     margin-top: 15px;
 }
 .hautBlocHebergement
@@ -619,13 +618,11 @@ footer
     .blocHebergement
     {
         flex-direction: column-reverse;
-        height: 2177px;
         margin-top: 5px;
     }
     .blocPopulaire
     {
         width: 348px;
-        height: 549px;
         border-radius: 0;
     }
     .imagePopulaire
@@ -659,7 +656,6 @@ footer
     .sousBlocHebergement
     {
         width: 344px;
-        height: 1480px;
         background-color: white;
     }
     .sectionHebergement
@@ -676,7 +672,7 @@ footer
     }
     .basDeBlocHebergement
     {
-        margin-top: -45px;
+        margin-top: -21px;
     }
     .blocActivites
     {
@@ -803,7 +799,6 @@ footer
     .blocHebergement
     {
         flex-direction: column-reverse;
-        height: 1500px;
         margin-top: 5px;
     }
     .blocPopulaire
@@ -845,7 +840,6 @@ footer
     }
     .sousBlocHebergement
     {
-        height: 1000px;
         background-color: white;
     }
     .sectionHebergement
