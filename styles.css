@@ -655,7 +655,7 @@ footer
     }
     .sousBlocHebergement
     {
-        width: 344px;
+        width: 100%;
         background-color: white;
     }
     .sectionHebergement
@@ -667,7 +667,7 @@ footer
     .elementHebergement
     {
         height: 207px;
-        width: 342px;
+        width: 126%;
         margin-top: 25px;
     }
     .basDeBlocHebergement
@@ -679,18 +679,19 @@ footer
         display: block ;
         height: 1193px;
         margin-left: 21px;
+        width: 105;
     }
     .blocActivites>div
     {
         margin-top: 32px;    
         height: 169px;
-        width: 342px;  
+        width: 117%;  
     }
     .blocActivites>div>a>figure>img
     {
         position: absolute;
         height: 125px;
-        width: 346px;
+        width: 104%;
         object-fit: cover;
         margin-left: -6px;
         margin-top: -6px;  
@@ -751,7 +752,7 @@ footer
     {
         display: flex;
         align-items: center;
-        width: 328px;
+        width: 400px;
         text-align: center;
         margin-left: -161px;
         margin-top: -23px;
@@ -762,7 +763,7 @@ footer
     }
     .hebergement
     {
-        width: 247px;
+        width: 100%;
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         padding: 1em 0 1em 0;
@@ -772,7 +773,7 @@ footer
     }
     .activites
     {
-        width: 242px;
+        width: 111%;
         border-bottom: 2px solid #f2f2f2;
         padding: 1em 0 1em 0;
         margin-right: -68px;
