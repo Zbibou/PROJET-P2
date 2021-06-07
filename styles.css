@@ -613,7 +613,7 @@ footer
     margin: 1rem 0;  
 }
 /*Media queries version mobile */
-@media screen and (max-width: 400px )
+@media screen and (max-width: 619px )
 {
     .blocHebergement
     {
@@ -622,7 +622,7 @@ footer
     }
     .blocPopulaire
     {
-        width: 348px;
+        width: 124%;
         border-radius: 0;
     }
     .imagePopulaire
@@ -790,11 +790,11 @@ footer
     }
     footer
     {
-        width: 394px;
+        width: 140%;
     }
 }
 /*Media queries version mobile */
-@media screen and (max-width: 1000px) and (min-width: 400px)
+@media screen and (max-width: 1000px) and (min-width: 620px)
 {
     .blocHebergement
     {
@@ -803,40 +803,51 @@ footer
     }
     .blocPopulaire
     {
-        width: 720px;
-        height: 549px;
+        width: 100%;
         border-radius: 0;
+    }
+    .essemblePopulaire
+    {
+        display: flex;
+        justify-content: space-between;
     }
     .imagePopulaire
     {
-        width: 127px;
+        height: 76px;
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+        border-radius: 1rem 1rem 0 0;
     }
     .titrePopulaire
     {
-    margin-top: -165px;
-    margin-left: 147px;
+        margin-top: -20px;
+        margin-left: 10PX;
     }
     .textePopulaire
     {
-        margin-top: -36px;
-        margin-left: 152px;   
+        margin-top: -39px;
+        margin-left: 16px;   
     }
     .iconePopulaire
     {
-        margin-left: 154px;
+        margin-left: 15px;
+        margin-top: -13px;
     }
     .titrePopulaire2
     {
-        margin-left: 147px;  
-    }
+        margin-left: 10px;
+        margin-top: -23px;
+    }      
     .iconePopulaire2
     {
-        margin-left: 153px;  
+        margin-left: 13px;
+        margin-top: -14px;  
     }
     .elementPopulaire
     {
-        width: 350px;
-        margin-left: 173px;
+        width: 30%;
+        height: 49%;
     }
     .sousBlocHebergement
     {
@@ -848,23 +859,19 @@ footer
         margin-top: -17px;
         justify-content: space-between;
         flex-wrap: wrap;
-        height: 750px;
+        height: 494px;
+        margin-left: 0;
     }
     .elementHebergement
     {
         height: 207px;
-        width: 328px;
+        width: 51%;
         margin-top: 40px;
         margin-left: 26px;
     }
     .basDeBlocHebergement
     {
         margin-top: -28px;
-    }
-    .filtre
-    {
-        flex-wrap: wrap ;
-        width: 530px;;
     }
     .blocActivites
     {
@@ -876,13 +883,13 @@ footer
     {
         margin-top: 32px;    
         height: 169px;
-        width: 308px;  
+        width: 46%;  
     }
     .blocActivites>div>a>figure>img
     {
         position: absolute;
         height: 125px;
-        width: 310px;
+        width: 107%;
         object-fit: cover;
         margin-left: -6px;
         margin-top: -6px;  
@@ -899,5 +906,14 @@ footer
     footer
     {
         margin-top: 41px;
+        width: 105%;
+    }
+    .colonneBas
+    {
+        padding: 0;
+    }
+    .filtre
+    {
+        flex-wrap: wrap;
     }
 } 
