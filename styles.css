@@ -752,7 +752,7 @@ footer
     {
         display: flex;
         align-items: center;
-        width: 400px;
+        width: 413px;
         text-align: center;
         margin-left: -161px;
         margin-top: -23px;
@@ -793,6 +793,10 @@ footer
     {
         width: 140%;
     }
+    .blocRecherche
+    {
+        margin-top: 33px;
+    }
 }
 /*Media queries version mobile */
 @media screen and (max-width: 1000px) and (min-width: 620px)
@@ -804,7 +808,7 @@ footer
     }
     .blocPopulaire
     {
-        width: 100%;
+        width: auto;
         border-radius: 0;
     }
     .essemblePopulaire
@@ -862,6 +866,7 @@ footer
         flex-wrap: wrap;
         height: 494px;
         margin-left: 0;
+        width: 92%;
     }
     .elementHebergement
     {
