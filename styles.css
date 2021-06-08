@@ -791,7 +791,7 @@ footer
     }
     footer
     {
-        width: 140%;
+        width: auto;
     }
     .blocRecherche
     {
@@ -913,7 +913,7 @@ footer
     footer
     {
         margin-top: 41px;
-        width: 105%;
+        width: auto;
     }
     .colonneBas
     {
