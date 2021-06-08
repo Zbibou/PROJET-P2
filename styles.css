@@ -679,7 +679,7 @@ footer
         display: block ;
         height: 1193px;
         margin-left: 21px;
-        width: 105;
+        width: 94%;
     }
     .blocActivites>div
     {
@@ -884,6 +884,7 @@ footer
         height: 617px;
         margin-left: 44px;
         justify-content: space-between;
+        width: 94%;
     }
     .blocActivites>div
     {
