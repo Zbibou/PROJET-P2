@@ -645,7 +645,7 @@ footer
     .iconePopulaire
     {
         margin-left: 138px;
-        margin-top: 58px;
+        margin-top: 41px;
     }
     .titrePopulaire2
     {
@@ -670,7 +670,7 @@ footer
     .elementHebergement
     {
         height: 207px;
-        width: 100%;
+        width: 105%;
         margin-top: 25px;
     }
     .basDeBlocHebergement
@@ -704,7 +704,7 @@ footer
         margin: 8.2rem 0.5rem;
         height: 30px;
     }
-    .activites>div>h3
+    .basActivites>div>h3
     {
         margin-left: 22px ;
     }
@@ -922,7 +922,7 @@ footer
         margin: 8.2rem 0.5rem;
         height: 30px;
     }
-    .activites>div>h3
+    .basActivites>div>h3
     {
         margin-left: 22px ;
     }
