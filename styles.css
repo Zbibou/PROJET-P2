@@ -381,6 +381,7 @@ figure
     justify-content: space-around;
     flex-wrap: wrap;
     height: 31.25rem;
+    margin-left: 20px;
 }
 .activitePort
 {
@@ -390,7 +391,7 @@ figure
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
-    width: 304px;
+    width: 20%;
     height: 443px;
 }
 .activitePort:hover
@@ -426,7 +427,7 @@ figure
     flex-direction: column;
     transition-duration: 0.1s;
     height: 245px;
-    width: 304px;
+    width: 20%;
 }
 .activiteFort:hover
 {
@@ -460,7 +461,7 @@ figure
     flex-direction: column;
     transition-duration: 0.1s;
     height: 170px;
-    width: 304px;
+    width: 20%;
     margin-top: -27px;
 }
 .activiteFrioul:hover
@@ -494,7 +495,7 @@ figure
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
-    width: 304px;
+    width: 20%;
     height: 443px;
 }
 .activiteNational:hover
@@ -529,7 +530,7 @@ figure
     flex-direction: column;
     transition-duration: 0.1s;
     height: 202px;
-    width: 304px;
+    width: 20%;
 }
 .activiteDame:hover
 {
@@ -563,7 +564,7 @@ figure
     flex-direction: column;
     transition-duration: 0.1s;
     height: 202px;
-    width: 304px;
+    width: 20%;
     margin-top: -14px;
 }
 .activiteLongchamp:hover
@@ -619,11 +620,13 @@ footer
     {
         flex-direction: column-reverse;
         margin-top: 5px;
+        width: 100%;
     }
     .blocPopulaire
     {
-        width: 124%;
+        width: 100%;
         border-radius: 0;
+        padding: 35px;
     }
     .imagePopulaire
     {
@@ -667,7 +670,7 @@ footer
     .elementHebergement
     {
         height: 207px;
-        width: 126%;
+        width: 100%;
         margin-top: 25px;
     }
     .basDeBlocHebergement
@@ -679,13 +682,13 @@ footer
         display: block ;
         height: 1193px;
         margin-left: 21px;
-        width: 94%;
+        width: 100%;
     }
     .blocActivites>div
     {
         margin-top: 32px;    
         height: 169px;
-        width: 117%;  
+        width: 100%;  
     }
     .blocActivites>div>a>figure>img
     {
@@ -712,7 +715,9 @@ footer
     }
     .colonneBas
     {
-    width: 320px;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-left: -55px;
     }
     .filtre
     {
@@ -748,18 +753,24 @@ footer
         width: 128px;
         text-align: left;
     }
+    header
+    {
+        justify-content: space-between;
+        margin: 0;
+        display: block;
+    }
     .menu
     {
         display: flex;
-        align-items: center;
-        width: 413px;
-        text-align: center;
-        margin-left: -161px;
-        margin-top: -23px;
+        width: 100%;
+        text-align: center;;
     }
     .navigation
     {
-        margin: 97px 64px -13px 10px;
+        width: 100%;
+        margin: 0 0 2em 0;
+        padding: 0;
+        height: auto;
     }
     .hebergement
     {
@@ -773,7 +784,7 @@ footer
     }
     .activites
     {
-        width: 111%;
+        width: 100%;
         border-bottom: 2px solid #f2f2f2;
         padding: 1em 0 1em 0;
         margin-right: -68px;
@@ -787,11 +798,14 @@ footer
     }
     .logo
     {
-        margin-top: -3em;
+        display: block;
+        margin: 0 0 0 1em;
+        padding: 2em 0 0 0;;
     }
     footer
     {
-        width: auto;
+        width: 100%;
+        padding: 0 0 0px 67px;
     }
     .blocRecherche
     {
@@ -799,12 +813,13 @@ footer
     }
 }
 /*Media queries version mobile */
-@media screen and (max-width: 1000px) and (min-width: 620px)
+@media screen and (max-width: 1314px) and (min-width: 620px)
 {
     .blocHebergement
     {
         flex-direction: column-reverse;
         margin-top: 5px;
+        width: 100%;
     }
     .blocPopulaire
     {
@@ -815,6 +830,7 @@ footer
     {
         display: flex;
         justify-content: space-between;
+        height: 114%;
     }
     .imagePopulaire
     {
@@ -852,7 +868,7 @@ footer
     .elementPopulaire
     {
         width: 30%;
-        height: 49%;
+        height: 74%;
     }
     .sousBlocHebergement
     {
@@ -913,7 +929,7 @@ footer
     footer
     {
         margin-top: 41px;
-        width: auto;
+        width: 100%;
     }
     .colonneBas
     {
