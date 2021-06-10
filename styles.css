@@ -21,7 +21,11 @@ header
 {
     display: flex;
     justify-content: space-between;
-    margin: 1em 1em 0 1em;
+    margin: 0 1em 0 1em;
+}
+.activites
+{
+    margin-top: 30px;
 }
 nav
 {
@@ -620,7 +624,7 @@ footer
     {
         flex-direction: column-reverse;
         margin-top: 5px;
-        width: 100%;
+        width: 89%;
     }
     .blocPopulaire
     {
@@ -676,6 +680,10 @@ footer
     .basDeBlocHebergement
     {
         margin-top: -21px;
+    }
+    .basActivites
+    {
+        width: 89%;
     }
     .blocActivites
     {
@@ -774,7 +782,7 @@ footer
     }
     .hebergement
     {
-        width: 100%;
+        width: 50%;
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         padding: 1em 0 1em 0;
@@ -784,16 +792,17 @@ footer
     }
     .activites
     {
-        width: 100%;
+        width: 50%;
         border-bottom: 2px solid #f2f2f2;
-        padding: 1em 0 1em 0;
         margin-right: -68px;
+        padding: 1em 0 1em 0;
+        margin-top: 0;
     }
     .inscrire
     {
         position: absolute;
         top: 0em;
-        right: -2em;
+        right: 1em;
         height: auto;
     }
     .logo
@@ -804,12 +813,16 @@ footer
     }
     footer
     {
-        width: 100%;
+        width: 89%;
         padding: 0 0 0px 67px;
     }
     .blocRecherche
     {
         margin-top: 33px;
+    }
+    body
+    {
+        max-width: 100%;
     }
 }
 /*Media queries version mobile */
