@@ -117,7 +117,6 @@ section
 .search
 {
     border: 0;
-    border-color: 0 none;
     text-align: center;
     font-size: 1em;
     padding: 1em 1em 1em 1em;
@@ -638,8 +637,8 @@ footer
     }
     .titrePopulaire
     {
-    margin-top: -165px;
-    margin-left: 136px;
+        margin-top: -165px;
+        margin-left: 136px;
     }
     .textePopulaire
     {
@@ -723,9 +722,9 @@ footer
     }
     .colonneBas
     {
-    width: 100%;
-    padding: 2rem 1rem;
-    margin-left: -55px;
+        width: 100%;
+        padding: 2rem 1rem;
+        margin-left: -55px;
     }
     .filtre
     {
